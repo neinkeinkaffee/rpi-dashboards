@@ -66,6 +66,6 @@ minicom -D /serial/port
 ```
 pip install adafruit-ampy
 ampy --port /serial/port put config.py
-ampy --port /serial/port run publish.py
-ampy --port /serial/port put publish.py main.py
+ampy --port /serial/port run main.py
+ampy --port /serial/port put main.py
 ```
